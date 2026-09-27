@@ -1,0 +1,16 @@
+@layer reset, dependencies, base, components, utilities;
+
+@import "resets/_normalize.css" layer(reset);
+
+@import "base/_variables.css" layer(dependencies);
+@import "base/_fonts.css" layer(dependencies);
+
+@import "base/_typography.css" layer(base);
+@import "base/_media.css" layer(base);
+
+body, #root {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+}

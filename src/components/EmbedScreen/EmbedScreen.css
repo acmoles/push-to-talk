@@ -1,0 +1,8 @@
+@layer {
+    .embed-screen {
+        width: 466px;
+        height: 466px;
+        background: var(--color--black-500);
+        border-radius: var(--border-radius--circle);
+    }
+}
